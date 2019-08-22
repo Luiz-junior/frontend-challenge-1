@@ -1,0 +1,127 @@
+.details-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 600px;
+}
+
+.back-button {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 1px 1px 4px 2px rgb(216, 209, 209);
+    margin-top: 85px;
+    margin-left: 70px;
+    /* margin-left: -170px; */
+    font-size: 15px;
+    color: #333;
+}
+
+.details-container img {
+    max-width: 600px;
+    height: auto;
+    margin-left: 70px;
+}
+
+.back-button img { 
+    height: 20px;
+    margin-right: 10px;
+}
+
+.details-info {
+    /* padding: 100px; */
+    list-style: none;
+    margin-left: 5%;
+}
+
+.details-info h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #333;
+    padding-left: 40px;
+}
+
+.list-features {
+    display: flex;      
+}
+
+.list-features ul li {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+    color: #555;
+}
+
+.border-container {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.border-container ul {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.border-container h4 {
+    color: #333;
+    font-size: 15px;
+}
+
+.border-countries {    
+    display: flex; 
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px rgb(216, 209, 209);
+    height: 30px;
+    width: 100px;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 375px) {
+    .details-container {
+        flex-wrap: wrap;        
+    }
+
+    .details-container img {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 70px;
+        justify-content: center;
+        
+    }
+
+    .back-button {
+        margin-left: 9%;
+    }
+
+    .details-info {
+        padding: 0;
+        
+    }
+
+    .list-features {
+        flex-direction: column;
+    }
+
+    .border-container {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .border-container h4 {
+        margin-left: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+}
